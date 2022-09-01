@@ -1,0 +1,16 @@
+@include desktop {
+    .seccion-nosotros {
+        @include grid(2, 3rem);
+    }
+
+    .titulo-nosotros {
+        margin-top: 0;
+    }
+}
+
+.titulo-nosotros {
+    font-weight: $black;
+    font-size: 2.2rem;
+    padding-bottom: 3rem;
+}
+

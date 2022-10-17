@@ -16,12 +16,20 @@
                     <img src="build/img/logo.svg" alt="logotipo bienes raices">
                 </a>
 
-                <nav class="navegacion">
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="anuncios.html">Anuncios</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="contacto.html">Contacto</a>
-                </nav>
+                <div class="mobile-menu">
+                    <img src="build/img/barras.svg" alt="icono menu responsive">
+                </div>
+
+                <div class="derecha">
+                    <img src="build/img/dark-mode.svg" alt="" class="dark-mode-boton">
+
+                    <nav class="navegacion">
+                        <a href="nosotros.html">Nosotros</a>
+                        <a href="anuncios.html">Anuncios</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="contacto.html">Contacto</a>
+                    </nav>
+                </div>
             </div> <!--.barra-->
 
             <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
@@ -69,17 +77,17 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img src="build/img/icono_wc.svg" alt="icono wc" loading="lazy">
+                            <img class="icono" src="build/img/icono_wc.svg" alt="icono wc" loading="lazy">
                             <p>3</p>
                         </li>
 
                         <li>
-                            <img src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento" loading="lazy">
+                            <img class="icono" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento" loading="lazy">
                             <p>3</p>
                         </li>
 
                         <li>
-                            <img src="build/img/icono_dormitorio.svg" alt="icono habitaciones" loading="lazy">
+                            <img class="icono" src="build/img/icono_dormitorio.svg" alt="icono habitaciones" loading="lazy">
                             <p>4</p>
                         </li>
                     </ul>
@@ -103,17 +111,17 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img src="build/img/icono_wc.svg" alt="icono wc" loading="lazy">
+                            <img class="icono" src="build/img/icono_wc.svg" alt="icono wc" loading="lazy">
                             <p>3</p>
                         </li>
 
                         <li>
-                            <img src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento" loading="lazy">
+                            <img class="icono" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento" loading="lazy">
                             <p>3</p>
                         </li>
 
                         <li>
-                            <img src="build/img/icono_dormitorio.svg" alt="icono habitaciones" loading="lazy">
+                            <img class="icono" src="build/img/icono_dormitorio.svg" alt="icono habitaciones" loading="lazy">
                             <p>4</p>
                         </li>
                     </ul>
@@ -137,17 +145,17 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img src="build/img/icono_wc.svg" alt="icono wc" loading="lazy">
+                            <img class="icono" src="build/img/icono_wc.svg" alt="icono wc" loading="lazy">
                             <p>3</p>
                         </li>
 
                         <li>
-                            <img src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento" loading="lazy">
+                            <img class="icono" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento" loading="lazy">
                             <p>3</p>
                         </li>
 
                         <li>
-                            <img src="build/img/icono_dormitorio.svg" alt="icono habitaciones" loading="lazy">
+                            <img class="icono" src="build/img/icono_dormitorio.svg" alt="icono habitaciones" loading="lazy">
                             <p>4</p>
                         </li>
                     </ul>
@@ -238,6 +246,7 @@
         <p class="copyright">Todos los derechos Reservados 2022 &copy;</p>
     </footer>
 
+    <script src="src/js/app.js"></script>
     <script src="build/js/bundle.min.js"></script>
 </body>
 </html>
